@@ -8,8 +8,8 @@ import java.sql.SQLException;
 
 public class LoginDB {
 	String url = "jdbc:mysql://localhost:3306/testdb";
-	String username = "root";
-	String password = "12345678Selva";
+	String username = "username";
+	String password = "password";
 	public boolean check(String email,String pass,String type) {
 		String sql = "select * from employee where email = ? and pass = ? and type = ?";
 
